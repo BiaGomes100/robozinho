@@ -13,7 +13,7 @@ headers_paises = [desc[0] for desc in cursor1.description]
 
 ws1 = wb.active
 ws1.title = "Países"
-ws1.append(["Relatório - Países", "", "", "", f"Aluno: Seu Nome", f"Data: {datetime.today().strftime('%d/%m/%Y')}"])
+ws1.append(["Relatório - Países", "", "", "", f"Aluno: Bianca Gomes", f"Data: {datetime.today().strftime('%d/%m/%Y')}"])
 ws1.append([]) 
 ws1.append(headers_paises)
 for pais in paises:
